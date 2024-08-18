@@ -1,0 +1,47 @@
+div.bgContainer {
+    background-color: rgb(110, 126, 231) ;
+    width:50%;
+}
+
+div.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+div.whiteBg {
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+    width:250px;
+    height: 400px;
+    background-color:white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2)
+}
+
+
+img.qrImg {
+    max-width:220px ;
+    max-height: 220px;
+    margin-top: 20px;
+border-radius: 7px;
+}
+
+div.card-down {
+    max-width: 220px;
+}
+
+p.title{
+    font-family: "Outfit", sans-serif ;
+    font-weight: 700;
+    text-align: center;
+}
+
+p.text {
+    font-family: "Outfit", sans-serif ;
+    font-weight: 400;
+    text-align: center;
+    color: grey;
+}
